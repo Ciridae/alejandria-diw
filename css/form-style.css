@@ -1,0 +1,26 @@
+h1 {
+    font-family: 'Lora', serif;
+    color: #32362d;
+}
+
+.boton {
+    background-color: #32362d;
+}
+
+.boton:hover {
+    background-color: #404639;
+}
+
+form {
+    width: 60%;
+}
+
+.enlace {
+    text-decoration: none;
+    color: black;
+}
+
+.enlace:hover {
+    text-decoration: none;
+    color: black;
+}
