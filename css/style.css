@@ -86,6 +86,28 @@ nav a {
     }
 }
 
+@media (max-width: 768px) {
+    .contenedor-libro {
+        grid-template-columns: 1fr !important; 
+    }
+
+    .datos-libro {
+        margin-top: 25px;
+    }
+
+    .contenedor-autor {
+        grid-template-columns: 1fr !important; 
+    }
+
+    .contenedor-datos-autor {
+        margin-top: 25px;
+    }
+
+    .contenedor-explorar video {
+        width: 90%;
+    }
+}
+
 .libro {
     display: flex;
     padding-top: 30px;
@@ -166,6 +188,44 @@ nav a {
 
 .genero-libro {
     border-bottom: 1px solid #4f3c2e;
+}
+
+.contenedor-portada {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-imagen-autor {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-leer {
+    border: 0.17rem solid rgba(39, 28, 20, 0.56);
+    border-radius: 25px;
+}
+
+.contenedor-leer:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.contenedor-explorar {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.boton-leer {
+    width: 100%;
+    text-align: center;
+}
+
+.texto-leer {
+    padding: 10px;
+    font-weight: bold;
 }
 
 .enlace {
